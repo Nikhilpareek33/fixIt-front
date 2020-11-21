@@ -27,7 +27,7 @@ import * as validators from '../redux/validators.js'
 
 
 const mapStateToProps = (state) => {
-    return {
+    return { 
         favorite: state.favorite,
         request: state.request,
         login: state.login

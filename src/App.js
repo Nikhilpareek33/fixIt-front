@@ -6,6 +6,7 @@ import {Provider} from 'react-redux';
 import {configureStore} from './redux/configureStore.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import ServiceProviderProfile from './routes/serviceProviderProfile'
 import Chat from './routes/chat';
 import Browse from './routes/browse';
 
@@ -18,8 +19,9 @@ function App() {
       <Switch>
         <Route path="/">
           <NavbarComponent/>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/home" component={Home} />
+          <ServiceProviderProfile/>
+          {/* <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} /> */}
           <Route exact path="/browse" component={Browse} />
           <Route exact path="/about" component={Home} />
           <Route exact path="/chat" component={Chat} />

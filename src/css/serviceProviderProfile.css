@@ -1,0 +1,57 @@
+.service-provider-profile-page {
+  padding: 2rem;
+}
+
+.service-provider-profile-body {
+  width: 80%;
+  min-height: 80vh;
+  /* min-width: 67rem; */
+  margin: 0 auto;
+}
+
+.service-provider-profile-details {
+  background-color: white;
+  box-shadow: 0 0 1rem rgb(200, 200, 200, 0.5);
+  border-radius: 1rem;
+}
+
+.service-provider-profile-image {
+  max-width: 13rem;
+  margin: 0 auto;
+}
+
+.service-provider-profile-name {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.3rem;
+}
+
+.service-provider-profile-location {
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.3rem;
+  color: rgb(31, 28, 184);
+}
+
+.service-provider-profile-comment {
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.service-provider-profile-service {
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.3rem;
+  color: rgb(31, 28, 184);
+}
+
+.service-provider-profile-experience {
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.3rem;
+  color: rgb(31, 28, 184);
+}
